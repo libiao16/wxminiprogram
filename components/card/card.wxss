@@ -6,8 +6,8 @@
   padding: 20rpx 15rpx;
 }
 .card {
-  width: 100%;
-  height: 40%;
+  width: 710rpx;
+  min-height: 390rpx;
   color: gray;
   background-color: white;
   border: 2rpx solid;
@@ -17,6 +17,9 @@
 }
 .card + .card {
   margin-top: 30rpx;
+}
+.card .cardContent + .cardContent {
+  height: 150rpx;
 }
 .card .cardTitle {
   border-bottom: 1rpx solid #eee;
@@ -30,9 +33,11 @@
 .card .remainder span{
   display: block;
   text-align: center;
+  padding-top: 15rpx;
 }
 .card .remainder span + span {
-  padding-top: 5rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
 }
 .card .remainder .remainderNum{
   color: black;
