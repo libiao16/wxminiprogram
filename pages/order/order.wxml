@@ -1,0 +1,4 @@
+<!--order.wxml-->
+<view class="container">
+  <view class></view>
+</view>

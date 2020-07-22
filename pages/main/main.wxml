@@ -1,0 +1,4 @@
+<!--main.wxml-->
+<view class="container">
+  <card></card>
+</view>

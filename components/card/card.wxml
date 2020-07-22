@@ -1,0 +1,21 @@
+<!--components/card/card.wxml-->
+<view class="card">
+    <view class="cardTitle flex solid-bottom padding justify-start"><span>{{title}}</span></view>
+    <view class="cardContent flex">
+      <view class="flex-sub padding">服务编号</view>
+      <view class="serviceID flex-treble padding">{{serviceID}}</view>
+    </view>
+    <view class="cardContent flex">
+      <view class="flex-sub padding">备注</view>
+      <view class="cardRemark flex-treble padding">{{remark}}</view>
+    </view>
+    <view class="cardBottom flex flex-wrap">
+      <view class="remainder basis-sm padding-sm">
+        <span class="remainderNum">剩余: {{remainder}}</span>
+        <span>到期时间:{{endTime}}</span>
+      </view>
+      <view class="goToUse basis-lg">
+        <button bindtap="goToSubMain" data-someInfo="{{someInfo}}">去使用</button>
+      </view>
+    </view>
+  </view>

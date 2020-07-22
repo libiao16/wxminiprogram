@@ -1,0 +1,47 @@
+/* components/card/card.wxss */
+/* main.wxss */
+@import "../../colorui/main.wxss";
+@import "../../colorui/icon.wxss";
+.container {
+  padding: 20rpx 15rpx;
+}
+.card {
+  width: 100%;
+  height: 40%;
+  color: gray;
+  background-color: white;
+  border: 2rpx solid;
+  border-radius: 20rpx;
+  border-color: #eee;
+  box-shadow: 10rpx 10rpx 5rpx #eee;
+}
+.card + .card {
+  margin-top: 30rpx;
+}
+.card .cardTitle {
+  border-bottom: 1rpx solid #eee;
+}
+.card .cardBottom {
+  border-top: 1rpx solid #eee;
+}
+.card .remainder {
+  border-right: 1rpx solid #eee;
+}
+.card .remainder span{
+  display: block;
+  text-align: center;
+}
+.card .remainder span + span {
+  padding-top: 5rpx;
+}
+.card .remainder .remainderNum{
+  color: black;
+  transform: scale(1.5);
+}
+.card .goToUse button{
+  color: #04BE02;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
